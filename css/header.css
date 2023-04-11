@@ -182,7 +182,7 @@ img {
 @media (max-width: 900px) {
     .container-header-introducao {
         background: rgba(0, 0, 0, 0.3); 
-        height: 100vh;
+        height: 100vh; /* retirar o vh quando da continuidade*/
     }
 
     .header-introducao {
