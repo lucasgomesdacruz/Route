@@ -69,7 +69,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 20px;
         margin-left: 0px;
     }
 
@@ -89,24 +88,26 @@
 }
 
 @media (max-width: 450px) {
-
-
     .header-menu {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 10px;
-        margin-left: 0px;
+        gap: 0px;
+        margin-right: 0px;
     }
-
     .header-menu a {
-        font-size: 0.70rem;
+        font-size: 0.80rem;
         background: #aaaaaa56;
         border-radius: 5px;
         padding: 7px 8px;
+        margin: 10px; 
     }
-    .header-menu a:hover {
-        background: #aaaaaa93;
+}
+
+@media (max-width: 350px) {
+    .header-menu a {
+        padding: 7px;
+        margin: 5px;
     }
 }
 
@@ -196,6 +197,27 @@
         font-size: 1.8rem;
         line-height: 2rem;
         margin-bottom: 20px;
+    }
+    .header-introducao button {
+        grid-area: 4;
+        display: inline-block;
+        grid-column: 1 / 2;
+        padding: 13px 30px;
+        font-size: 0.85rem;
+        margin: 0 auto;
+    }
+    .header-introducao p {
+        margin: 0px 10px 20px 10px;
+        font-size: 1.2rem;     
+    }
+    
+}
+@media (max-width: 350px) {
+    .header-introducao h2 {
+        margin: 10px;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        margin-bottom: 15px;
     }
     .header-introducao button {
         grid-area: 4;
