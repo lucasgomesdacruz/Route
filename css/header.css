@@ -5,8 +5,8 @@
    background-size: cover;
    background-position: right;
    margin: 0 auto;
-   max-width: 100vw;
-   height: 100vh;
+   max-width: 100%;
+   height: 100%;
    overflow: hidden; 
    
 }
@@ -124,7 +124,7 @@
     margin-bottom: 20px;
     color: white;
     font-weight: bolder;
-    font-size: 2.5rem;
+    font-size: 3rem;
     line-height: 3.5rem;
 }
 
@@ -132,9 +132,9 @@
     display: grid;
     grid-area: 3;
     grid-column: 1 / 3;
-    margin-bottom: 20px;
     color: #f3efef;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
      
 }
 
@@ -163,7 +163,6 @@
 @media (max-width: 900px) {
     .container-header-introducao {
         background: rgba(0, 0, 0, 0.3); 
-        height: 100vh; /* retirar o vh quando da continuidade*/
     }
 
     .header-introducao {
@@ -194,8 +193,9 @@
 @media (max-width: 450px) {
     .header-introducao h2 {
         margin: 10px;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         line-height: 2rem;
+        margin-bottom: 20px;
     }
     .header-introducao button {
         grid-area: 4;
@@ -207,7 +207,7 @@
     }
     .header-introducao p {
         margin: 0px 10px 20px 10px;
-        font-size: 1rem;     
+        font-size: 1.2rem;     
     }
 }
 

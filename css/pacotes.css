@@ -35,45 +35,25 @@
     
 }
 .preco-item h2 {
-    font-size: 2em;
+    font-size: 2rem;
     color: #11a8ff;
     text-align: center;
     margin-bottom: 20px;
 }
 
 .preco-item span {
-    font-size: 1em;
+    font-size: 1rem;
     color: #11a8ff;
     text-align: center;
    
 }
 
 .preco-item ul {
-    font-size: 1em;
+    font-size: 1rem;
     color:#7c7c7c;
     margin-bottom: 40px;
    
 
-}
-
-.beneficios li {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.preco-item li::before {
-    content: '';
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    background: #11a8ff;
-    border-radius: 50%;
-    top: 21px;
-    left: 480px;
-    position: absolute;
-    
 }
 
 .preco-item a {
@@ -87,4 +67,27 @@
 
 .preco-item a:hover {
     background: #f7f7f7;
+}
+
+@media (max-width: 900px) {
+    .preco { 
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 450px) {
+    .preco-item {
+        max-width: 400px;
+    }
+    .preco-item h2 {
+        font-size: 2rem;
+    }
+    
+    .preco-item span {
+        font-size: 0.70rem;
+    }
+    
+    .preco-item ul {
+        font-size: 0.90rem;
+    }
 }
