@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins","Roboto", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+:root {
+    --cor-0: #ffffff;
+    --cor-1: #f7f7f7;
+    --cor-2: #EDEDED;
+    --cor-3: #DEDEDE;
+    --cor-4: #CCCCCC;
+    --cor-5: #B2B2B2;
+    --cor-6: #9C9C9C;
+    --cor-7: #717171;
+    --cor-8: #595959;
+    --cor-9: #404040;
+    --cor-10: #2e2e2e;
+    --cor-11: #111111;
+    --cor-12: #000000;
+    --cor-p1: #ffbb00;
+    --cor-p2: #E4A30B;
+    --cor-p3: #A66F00;
+    --cor-p4: #664400;
+    --cor-p5: #332200;
+    
+}

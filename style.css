@@ -1,2 +1,13 @@
+/*Global*/
+@import "css/Global.css";
+
 /*Header*/
 @import "css/header.css";
+
+/* Main */
+@import "css/main.css";
+
+/*pacotes*/
+@import "css/pacotes.css";
+
+
