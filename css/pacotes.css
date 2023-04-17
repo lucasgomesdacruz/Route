@@ -1,6 +1,6 @@
 .preco-bg {
     background: #f7f7f7;
-    padding: 120px 0px;
+    padding: 10px 0px;
 }
 
 .preco {
@@ -23,7 +23,7 @@
     background: rgba(255, 255, 255, 015);
     box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.35);
     border-radius: 10px;
-    line-height: 3em;
+    line-height: 3rem;
     padding: 20px 60px 60px 60px;
     background: white;
 }
@@ -77,16 +77,52 @@
 @media (max-width: 450px) {
     .preco-item {
         max-width: 400px;
+        line-height: 1.8rem;
+        padding: 20px 40px 40px 40px;
+    }
+    .preco-span {
+        flex-direction: column;
     }
     .preco-item h2 {
         font-size: 2rem;
+        margin-bottom: 5px;
     }
-    
     .preco-item span {
-        font-size: 0.70rem;
+        font-size: 0.90rem;
     }
     
     .preco-item ul {
-        font-size: 0.90rem;
+        font-size: 0.75rem;
+        margin-bottom: 20px;
+    }
+
+    .preco-item a {
+        padding: 10px 40px;
+        border: 2px solid #7c7c7c;
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+
+@media (max-width: 350px) {
+    .preco-item {
+        max-width: 400px;
+        line-height: 1.5rem;
+        padding: 20px 15px 30px 15px;
+    }
+    .preco-item h2 {
+        font-size: 1.8rem;
+    }
+    
+    .preco-item span {
+        font-size: 0.80rem;
+        
+    }
+    
+    .preco-item ul {
+        font-size: 0.70rem;
     }
 }
