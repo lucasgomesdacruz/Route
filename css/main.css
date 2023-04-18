@@ -144,7 +144,7 @@
 .main-introducao-sobre h2 {
     color: #7c7c7c;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 1.7;
 }
 
@@ -167,8 +167,12 @@
     .main-introducao-sobre {
         grid-column: 1 / 4;
         margin: 10px;
-        font-size: 1rem;
     }
+
+    .main-introducao-sobre h2 {
+        font-size: 1.3rem;
+    }
+
 
     .main-introducao img {
         width: 400px;
@@ -204,7 +208,7 @@
     }
     
     .main-introducao-sobre h2 {
-        font-size: 1rem;
+        font-size: 0.90rem;
     }
 }
 
@@ -239,7 +243,7 @@
 .main-introducao-sobre-sub h2 {
     color: #7c7c7c;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 1.7;
 }
 
@@ -267,7 +271,6 @@
     .main-introducao-sobre-sub {
         grid-column: 1 / 4;
         margin: 10px;
-        font-size: 1rem;
     }
 }
     @media (max-width: 450px) {
@@ -284,6 +287,9 @@
         .main-introducao-sobre-sub {
             margin: 10px;
             font-size: 1rem;
+        }
+        .main-introducao-sobre-sub h2 {
+            font-size: 0.90rem;
         }
         
         
@@ -374,6 +380,9 @@
         height: 300px;
         border-radius: 50%;
         margin: 20px;
+    }
+    .main-introducao-sobre-camera h2 {
+        font-size: 0.90rem;
     }
 
 }
