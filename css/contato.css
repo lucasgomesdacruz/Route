@@ -166,15 +166,15 @@
 .botao {
     display: inline-block;
     padding: 16px 32px;
-    background: white;
+    background: linear-gradient(#11a8ff, #0499f0);
     border-radius: 4px;
     box-shadow: 0 1px 2px rgb(0, 0, 0, .1);
     text-transform: uppercase;
-    color: #000000;
+    color: white;
     font: 600 1.125rem/1.35 "Poppins", sans-serif;
     max-width: max-content;
     cursor: pointer;
-    border: 2px solid black;
+    border: 2px solid #11a8ff;
     
 }
 
