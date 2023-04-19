@@ -1,0 +1,13 @@
+.footer-bg {
+    max-width: 100vw;
+    background: #f7f7f7;
+    padding: 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    font-size: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    
+}
