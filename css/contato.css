@@ -174,8 +174,12 @@
     font: 600 1.125rem/1.35 "Poppins", sans-serif;
     max-width: max-content;
     cursor: pointer;
-    border: 2px solid #11a8ff;
+    border: none;
     
+}
+
+.botao:hover {
+    background: linear-gradient( #1095e2, #0690e0 );
 }
 
 
