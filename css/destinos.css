@@ -9,7 +9,7 @@
 
 .destinos-container-img {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1600px;
 }
 
 .destinos-container-img h1 {
@@ -39,8 +39,8 @@
 }
 
 .destinos-img img {
-    width: 250px;
-    height: 350px;
+    width: 300px;
+    height: 420px;
     border-radius: 5px 5px 0px 0px;
 }
 
