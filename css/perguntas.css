@@ -30,13 +30,44 @@
     font-size: 1.2rem;
 }
 
+.perguntas-container dt::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    margin-right: 10px;
+    background: #11a8ff;
+  }
+
 .container-perguntas-bg dt {
     margin-bottom: 20px;
+}
+
+.container-perguntas-bg dd {
+    margin-left: 38px;
 }
 
 @media (max-width: 450px) {
     .perguntas-container h2 {
         text-align: center;
         margin-bottom: 20px;
+        
     }
+    .perguntas-container dt {
+        font-size: 0.90rem;
+        
+    }
+    .container-perguntas-bg dd {
+        font-size: 0.90rem;
+        margin-left: 23px;
+    }
+
+    .perguntas-container dt::before {
+        content: '';
+        display: inline-block;
+        width: 14px;
+        height: 7px;
+        margin-right: 0px;
+        background: #11a8ff;
+      }
 }
