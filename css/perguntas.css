@@ -33,3 +33,10 @@
 .container-perguntas-bg dt {
     margin-bottom: 20px;
 }
+
+@media (max-width: 450px) {
+    .perguntas-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
