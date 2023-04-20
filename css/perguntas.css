@@ -1,0 +1,35 @@
+.perguntas-bg {
+    max-width: 100vw;
+    background: #f7f7f7;
+}
+
+.perguntas-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.perguntas-container h2 {
+    margin-bottom: 60px;
+}
+
+.container-perguntas-bg:nth-child(odd) {
+    background: white;
+}
+
+.perguntas-container dl > div {
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.perguntas-container dt {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.container-perguntas-bg dt {
+    margin-bottom: 20px;
+}
