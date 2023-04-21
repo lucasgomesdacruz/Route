@@ -114,6 +114,22 @@
     }
 }
 
+@media (max-width: 450px) {
+    .container-titulo  {
+        padding-top: 10px;   
+    }
+
+    .container-titulo h1 {
+        font-size: 2rem;  
+    }
+
+    .container-titulo p {
+        padding-top: 20px;
+        font-size: 1rem;
+    }
+
+}
+
 
 /* formulario */
 
