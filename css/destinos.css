@@ -41,6 +41,7 @@
     box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.35);
     -webkit-backdrop-filter: blur(15px);
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 
@@ -66,6 +67,7 @@
         gap: 20px;
         overflow-x: auto;
         margin: 10px;
+    
     }
 
     .destinos-container::-webkit-scrollbar-button {
@@ -88,6 +90,7 @@
     }
     .destinos h2 {
         font-size: 0.90rem;
+        
     }
 
     .destinos-bg {
