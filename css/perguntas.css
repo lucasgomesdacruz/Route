@@ -62,12 +62,12 @@
         
     }
     .perguntas-container dt {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         
     }
     
     .container-perguntas-bg dd {
-        font-size: 0.90rem;
+        font-size: 1rem;
         margin-left: 23px;
     }
 
@@ -75,7 +75,7 @@
         content: '';
         display: inline-block;
         width: 14px;
-        height: 7px;
+        height: 8px;
         margin-right: 0px;
         background: #11a8ff;
       }
