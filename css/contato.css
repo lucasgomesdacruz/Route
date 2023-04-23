@@ -207,3 +207,10 @@
         grid-column: 1;
     }
 }
+
+@media (max-width: 450px) {
+    .botao {
+        padding: 16px;
+        font: 600 0.90rem/1.35 "Poppins", sans-serif;
+    }
+}
