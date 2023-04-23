@@ -37,7 +37,7 @@
     height: 10px;
     margin-right: 10px;
     background: #11a8ff;
-  }
+}
 
 .container-perguntas-bg dt {
     margin-bottom: 20px;
@@ -45,6 +45,14 @@
 
 .container-perguntas-bg dd {
     margin-left: 38px;
+}
+
+.perguntas-container dd {
+    display: none;
+}
+
+.perguntas-container dd.ativo {
+    display: block;
 }
 
 @media (max-width: 450px) {
