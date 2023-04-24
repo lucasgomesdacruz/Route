@@ -54,7 +54,19 @@
 
 .js .perguntas-dt dd.ativo {
     display: block;
+    animation: slideDown .5s forwards;
 }
+
+@keyframes slideDown {
+    from {
+      opacity: 0;
+      max-height: 0;
+    }
+    to {
+      max-height: 200px;
+      opacity: 1;
+    }
+  }
 
 .perguntas-dt dd {
     padding-left: 20px;
