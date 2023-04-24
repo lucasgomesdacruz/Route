@@ -198,6 +198,13 @@
 }
 
 @media (max-width: 450px) {
+    .barra {
+        background: rgba(0, 0, 0, 0.444); 
+    }
+    .container-header-introducao {
+        background: rgba(0, 0, 0, 0.444); 
+    }
+
     .header-introducao h2 {
         margin: 10px;
         font-size: 1.8rem;
