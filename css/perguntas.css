@@ -47,12 +47,18 @@
     margin-left: 38px;
 }
 
-.perguntas-container dd {
+.perguntas-dt dd {
     display: none;
 }
 
-.perguntas-container dd.ativo {
+ .perguntas-dt dd.ativo {
     display: block;
+}
+
+.perguntas-dt dd {
+    padding-left: 20px;
+    padding-top: 16px;
+    max-width: 80ch;
 }
 
 @media (max-width: 450px) {
