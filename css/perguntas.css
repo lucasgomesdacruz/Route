@@ -87,7 +87,7 @@
     
     .container-perguntas-bg dd {
         font-size: 1rem;
-        margin-left: 23px;
+        margin-left: 0px;
     }
 
     .perguntas-container dt::before {
