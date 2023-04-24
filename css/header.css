@@ -167,28 +167,6 @@
      
 }
 
-.header-introducao button {
-    grid-area: 4;
-    display: inline-block;
-    grid-column: 1 / 3;
-    padding: 16px 60px;
-    background: linear-gradient(#2573c2, #125483);
-    border-radius: 10px;
-    box-shadow: 0 1px 2px rgb(0, 0, 0, .1);
-    text-transform: uppercase;
-    max-width: max-content;
-    border: none;
-    cursor: pointer;
-    color: white;
-    font-size: 1.1rem;
-    font-weight: bolder;
-    font-family: "Poppins", sans-serif;
-}
-
-.header-introducao button:hover {
-    background: linear-gradient( #287bce, #17669e );
-}
-
 @media (max-width: 900px) {
     .container-header-introducao {
         background: rgba(0, 0, 0, 0.3); 
@@ -224,7 +202,8 @@
         margin: 10px;
         font-size: 1.8rem;
         line-height: 2rem;
-        margin-bottom: 20px;
+        margin: 20px;
+       
     }
     .header-introducao button {
         grid-area: 4;
@@ -237,6 +216,7 @@
     .header-introducao p {
         margin: 0px 10px 20px 10px;
         font-size: 1.2rem;     
+        margin: 0px 20px 0px 20px;
     }
     
 }
